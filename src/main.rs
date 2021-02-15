@@ -8,5 +8,5 @@ fn main() {
         speed: 1,
         name: String::from("Tiida"),
     };
-    info!("Hello, world! from {}", my_car.name);
+    info!("Hello, world! from {} {}", my_car.name, 123);
 }
